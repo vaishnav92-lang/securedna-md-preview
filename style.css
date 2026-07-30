@@ -1,0 +1,28 @@
+*{box-sizing:border-box;}
+body{font-family:-apple-system,'Helvetica Neue',Arial,sans-serif;color:#16232b;line-height:1.6;font-size:16px;margin:0;background:#f7f9fb;}
+.wrap{max-width:720px;margin:0 auto;padding:48px 28px 80px;}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#4a7a97;font-weight:700;margin-bottom:10px;}
+h1{font-size:40px;margin:0 0 10px;letter-spacing:-.02em;color:#0b2733;line-height:1.1;}
+.standfirst{font-size:20px;color:#3a5563;margin:0 0 24px;line-height:1.35;}
+.hero{border-bottom:2px solid #0b3d5c;padding-bottom:26px;margin-bottom:28px;}
+h2{font-size:22px;color:#0b3d5c;margin:34px 0 10px;letter-spacing:-.01em;}
+h3{font-size:16px;color:#0b2733;margin:20px 0 4px;}
+p{margin:12px 0;}
+ul{margin:12px 0;padding-left:0;list-style:none;}
+li{margin:9px 0;padding-left:22px;position:relative;}
+li::before{content:"→";position:absolute;left:0;color:#4a7a97;font-weight:700;}
+a{color:#1a6ea8;}
+strong{color:#0b2733;}
+.meta{color:#6a7883;font-size:15px;margin-top:16px;}
+.cta{margin:26px 0 8px;padding-top:22px;border-top:1px solid #d9e3ea;}
+.btn{display:inline-block;background:#0b3d5c;color:#fff;text-decoration:none;padding:13px 20px;border-radius:7px;font-weight:700;margin:0;}
+.btn.alt{background:#fff;color:#0b3d5c;border:1.5px solid #0b3d5c;}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:6px 0 4px;}
+.cta-row .btn{flex:1 1 170px;text-align:center;}
+.nav{font-size:14px;margin-bottom:24px;}
+.nav a{color:#4a7a97;text-decoration:none;font-weight:600;}
+.reading .item{padding:16px 0;border-bottom:1px solid #e6ecf0;}
+.reading .src{color:#4a7a97;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;}
+.reading .desc{color:#465a66;font-size:15px;margin-top:4px;}
+.tag{display:inline-block;background:#eef4f8;color:#3a6b88;font-size:12px;font-weight:700;padding:3px 9px;border-radius:20px;margin-left:8px;vertical-align:middle;}
+.note{background:#fff8e6;border:1px solid #f0e2b8;border-radius:8px;padding:12px 16px;font-size:14px;color:#6a5a20;margin:18px 0;}
